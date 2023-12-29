@@ -10,7 +10,7 @@ class ProductAdmin(admin.ModelAdmin):
         'rating',
         'image',
     )
-class ProductAdmin(admin.ModelAdmin):
+class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         'official_name',
         'name',

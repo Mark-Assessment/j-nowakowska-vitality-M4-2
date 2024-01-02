@@ -6,10 +6,10 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
     
@@ -19,10 +19,10 @@
                 Vitamins
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="vitamin-link">
-                <a href="" class="dropdown-item">Vitamins &amp; Essentials</a>
-                <a href="" class="dropdown-item">Protein</a>
-                <a href="" class="dropdown-item">Nutrition</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=vitamins,essentials" class="dropdown-item">Vitamins &amp; Essentials</a>
+                <a href="{% url 'products' %}?category=protein" class="dropdown-item">Protein</a>
+                <a href="{% url 'products' %}?category=nutrition" class="dropdown-item">Nutrition</a>
+                <a href="{% url 'products' %}?category=vitamins,essentials,protein,nutrition" class="dropdown-item">All Products</a>
             </div>
         </li>
     
@@ -32,9 +32,9 @@
                 Food
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="food-link">
-                <a href="" class="dropdown-item">Snacks &amp; Protein Bars</a>
-                <a href="" class="dropdown-item">Drinks &amp; Protein Shakes </a>
-                <a href="" class="dropdown-item">All Food</a>
+                <a href="{% url 'products' %}?category=snacks_bars" class="dropdown-item">Snacks &amp; Bars</a>
+                <a href="{% url 'products' %}?category=drinks_shakes" class="dropdown-item">Drinks &amp; Shakes </a>
+                <a href="{% url 'products' %}?category=snacks_bars,drinks_shakes" class="dropdown-item">All Food</a>
             </div>
         </li>
     
@@ -44,10 +44,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="offers-link">
-                <a href="" class="dropdown-item">New</a>
-                <a href="" class="dropdown-item">Promotions</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Offers</a>
+                <a href="{% url 'products' %}?category=new" class="dropdown-item">New</a>
+                <a href="{% url 'products' %}?category=promotions" class="dropdown-item">Promotions</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new,promotions,clearance" class="dropdown-item">All Offers</a>
             </div>
         </li>
     </ul>

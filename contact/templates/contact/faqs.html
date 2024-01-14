@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %}FAQs{% endblock %}
+
+{% block content %}
+<div class="container page-margins">
+
+    <!-- Page Header -->
+    <div class="row">
+        <div class="col-12 page-title">
+            <h3>FAQs</h3>
+            <hr class="section-divider">
+        </div>
+    </div>
+
+    <div class="col-12">
+        <p> Welcome to Vitality!</p>
+        <p>Below, you can find answers to some frequently asked questions, which could help with any enquiries you may have.</p>
+        <p>If an anser to your question is not there, please feel free to contact Us by using our Contact Form.</p>
+    </div>
+
+    <div class="col-12 col-toggle d-flex justify-content-center justify-content-md-start">
+        <button class="btn" id="hideAccordianCards">Hide Text</button>
+        <button class="btn" id="showAccordianCards">Show Text</button>
+    </div>
+
+    <div class="col-12 w-100">
+        {% for question in questions %}
+        <div id="accordion">
+            <div class="card col-box">
+                <div class="col-title card-header" id="questionCollapse">
+                    <h5 class="mb-0 text-center text-md-left">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#col_{{ question.id }}"
+                            aria-expanded="false" aria-controls="col_{{ question.id }}">
+                            {{ question.question }} <span class="icon"><i class="fas fa-angle-down"></i></span>
+                        </button>
+                    </h5>
+                </div>
+    
+                <div id="col_{{ question.id }}" class="question-col collapse" aria-labelledby="questionCollapse">
+                    <div class="card-body col-text container-fluid">
+                        {{ question.answer }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>    

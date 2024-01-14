@@ -23,3 +23,15 @@ class Contact(models.Model):
 
     def __str__(self) -> str:
         return f'Contact {self.name} and message created'
+
+
+class FAQ(models.Model):
+
+    question = models.CharField(max_length=254)
+    answer = models.TextField()
+
+    def __str__(self):
+        return str(self.question)
+
+    def get_friendly_name(self):
+        return str(self.answer)

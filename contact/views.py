@@ -8,6 +8,7 @@ from django.template.loader import render_to_string
 
 from .models import Contact
 from .forms import ContactForm
+from .models import FAQ
 
 # Create your views here.
 
@@ -52,4 +53,13 @@ def contact(request):
         'form': form,
     }
 
-    return render(request, 'contact/contact.html', context)
+    return render(request, 'contact.html', context)
+
+
+def view_faqs(request):
+    questions = FAQ.object.all()
+
+    context = {
+        'questions' : questions,
+    }
+    return render(request, 'faqs.html', context)

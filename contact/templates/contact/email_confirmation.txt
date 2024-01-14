@@ -1,0 +1,16 @@
+Hi {{ name }}!
+
+Thank you for contacting us,
+We will get back to you within 24h.
+
+Below, you can find a copy of your message:
+
+------------
+
+{{message}}
+
+------------
+
+Kind Regards,
+
+Vitality Group

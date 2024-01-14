@@ -1,0 +1,98 @@
+[
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer":"Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer":"Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    },
+    {
+        "model": "pages.faq",
+        "pk": 1,
+        "fields": {
+            "question": "When can I expect my order?",
+            "answer": "Estimated delivery 1-2 DAYS when ordered BEFORE 9PM Monday - Friday or BEFORE 7PM Saturday or Sunday"
+        }
+    }
+]

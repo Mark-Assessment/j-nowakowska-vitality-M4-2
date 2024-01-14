@@ -53,7 +53,7 @@ def contact(request):
         'form': form,
     }
 
-    return render(request, 'contact.html', context)
+    return render(request, 'contact/contact.html', context)
 
 
 def view_faqs(request):

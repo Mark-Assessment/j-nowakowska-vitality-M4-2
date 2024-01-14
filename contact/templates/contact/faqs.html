@@ -47,4 +47,18 @@
         </div>
         {% endfor %}
     </div>
-</div>    
+</div> 
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script>
+    // ref: https://stackoverflow.com/questions/22057505/bootstrap-collapse-expand-all
+    $("#hideAccordianCards").click(function () {
+        $('.question-col.collapse').removeClass('show');
+    });
+    $("#showAccordianCards").click(function () {
+        $('.question-col.collapse').addClass('show');
+    });
+</script>
+{% endblock %}

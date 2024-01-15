@@ -57,9 +57,9 @@ def contact(request):
 
 
 def view_faqs(request):
-    questions = FAQ.object.all()
+    questions = FAQ.objects.all()
 
     context = {
         'questions' : questions,
     }
-    return render(request, 'faqs.html', context)
+    return render(request, 'contact/faqs.html', context)

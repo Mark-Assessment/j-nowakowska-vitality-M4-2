@@ -1,20 +1,24 @@
-{% extends "base.html" %} {% load static %} {% block page_header %}
+{% extends "base.html" %} 
+{% load static %} 
+{% block page_header %}
 <div class="container header-container">
   <div class="row">
     <div class="col"></div>
   </div>
 </div>
-{% endblock %} {% block content %}
+{% endblock %} 
+
+{% block content %}
 <div class="container h-100">
   <div class="row h-100">
     <div class="col-7 col-md-6 my-auto">
-      <h1 class="display-4 logo-font text-black">
+      <h1 class="new-product-text display-4 logo-font text-white">
         New products available here
       </h1>
       <div class="my-5">
         <h4>
           <a
-            href=""
+            href="{% url 'products' %}"
             class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3"
             >Shop Now</a
           >
@@ -23,4 +27,73 @@
     </div>
   </div>
 </div>
+{% endblock %}
+
+{% block footer %}
+<footer>
+    <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Vitality LTD
+                </h6>
+                <p>
+                    <i class="fas fa-home me-3"></i> 45 Mayfair, London LW4 7QG United Kingdom
+                </p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    vitality.com
+                </p>
+                <p>
+                    <i class="fas fa-phone me-3"></i> + 440161777555
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Popular Categories
+                </h6>
+                <p>
+                    <a href="{% url 'products' %}?subcategory=clearance" class="text-reset">Clearance</a>
+                </p>
+                <p>
+                    <a href="{% url 'products' %}?category=food" class="text-reset">Food</a>
+                </p>
+                <p>
+                    <a href="{% url 'products' %}?category=new_products" class="text-reset">New
+                        Products</a>
+                </p>
+                <p>
+                    <a href="{% url 'products' %}?category=drink" class="text-reset">Drinks</a>
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                </h6>
+                <p>
+                    <a href="{% url 'contact' %}" class="text-reset">Contact Us</a>
+                </p>
+
+
+                <!-- Social Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Follow Us</h6>
+                <p>
+                    <a href="https://facebook.com" class="me-4 text-reset" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </p>
+                <p>
+                    <a href="https://twitter.com" class="me-4 text-reset" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </p>
+                <p>
+                    <a href="https://instagram.com" class="me-4 text-reset" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 {% endblock %}

@@ -8,8 +8,34 @@ body {
     height: calc(100vh - 164px);
     color: rgb(180, 85, 85);
     font-family: 'Lato';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.faqs {
+    padding-top: 20%;
 }
 
+footer {
+    padding-top: 90%;
+    text-align: center;
+    width: 100%;
+}
+
+footer>a {
+    font-size: 20px;
+    color: #f96d00;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+footer>p {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
 /* from Bulma */
 .icon {
     align-items: center;
@@ -31,6 +57,11 @@ body {
     background: black;
     color: white;
     min-width: 260px;
+}
+
+.new-product-text {
+    background: rgba(000, 000, 000, .8);
+    color: white;
 }
 
 .btn-black {

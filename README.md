@@ -120,7 +120,7 @@ The website needs to enable the **user** to:
 
 The website needs to enable the **site manager** to:
 
-- Add/deleyte and edit stock 
+- Add/deleyte and edit items
 - Improve the site as necessary with various new features
 
 #### Scope

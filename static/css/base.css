@@ -17,9 +17,11 @@ body {
 }
 
 footer {
-    padding-top: 90%;
+    
     text-align: center;
     width: 100%;
+    background: white no-repeat center center fixed;
+    display: flex;
 }
 
 footer>a {

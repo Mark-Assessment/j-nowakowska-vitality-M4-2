@@ -38,6 +38,8 @@ footer>p {
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -49,6 +51,7 @@ footer>p {
 
 .logo-font {
     text-transform: uppercase;
+    size: 20px;
 }
 
 .main-logo-link {
@@ -62,7 +65,7 @@ footer>p {
 }
 
 .new-product-text {
-    background: rgba(000, 000, 000, .8);
+    background: rgba(255, 255, 255, .8);
     color: white;
 }
 
@@ -235,6 +238,10 @@ a.category-badge>span.badge:hover {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .new-product-text {
+        display: none;
     }
 }
 

@@ -55,7 +55,9 @@
                             <td>{{ order.date }}</td>
                             <td>
                                 <ul class="list-unstyled">
-                                   {{ item.product.name }} x{{ item.quantity }}
+                                    {% for item in order.lineitems.all %}
+                                    <li class="small">
+                                    {{ item.product.name }} x{{ item.quantity }}
                                     </li>
                                     {% endfor %}
                                 </ul>
@@ -66,9 +68,11 @@
                     </tbody>
                 </table>
             </div>
-            </div>
-            </div>
+        </div>
+    </div>
 {% endblock %}
+
+                        
 
 {% block postloadjs %}
 {{ block.super }}

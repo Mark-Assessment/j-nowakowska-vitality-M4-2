@@ -4,36 +4,49 @@
 
 #### New User
 1. As a new user, I want to be able to navigate to Sign-Up page to register an account.
+   - Login/Register features are easily accessible via navigation bar
 
 #### Returning User Goals
 
 1. As a returning user, I want to be able to access my account on the website.
+   - feature is available via 'Account' on navigation bar. User can view their profile and order history.
 2. View my previous orders, to keep a record of my transaction.
 3. Edit default information, to update any necessary fields.
+   - this feature is available in Profiles as well as in the checkout where user can edit tgeir details.
 4. View shopping bag to get an overview of products I wish to order.
-5. Remove products from my bag, to suit my needs.
-6. Update a product's quantity, to suit my needs.
+   - feature is available in bag, where user can view order, quantity, total amount and delivery amount.
+5. Remove products from my bag.
+6. Update a product's quantity.
 7. Proceed to a secure checkout, to make a purchase.
+   - removing/updating and checkout are avialble in the shopping bag 
 8. Have clear visual feedback of the order process, to understand all steps of the process.
-9. Be able to edit my bag at all times, to allow change of mind.
-10. Receive a summary of my order via email to confirm that my transaction has been process.
+   - FAQs are avialle to answer questions that user may have.
+10. Be able to edit my bag at all times, to allow change of mind.
+    - available in the bag, where user can adjust quantity
+11. Receive a summary of my order via email to confirm that my transaction has been process.
+    - feature available and included after checkout.
 
 #### User
 
 1. View all products, to purchase my desired items.
+   - products are accessable through a navigation bar, where user can also use categories to view only specific products.
 2. Filter through categories, to only see relevant products.
 3. Use a search query, to find a specific product or product type.
+   - search bar is functional and allows user to view specific products 
 4. Add items to my shopping bag, to begin the order process.
+   Adding item to bag is available after clicking into a product of interest
 5. Receive visual feedback that my item has been added to the bag, to confirm my selection.
+   - toasts are used to give live feedback to the user
 6. View contact informtation for the shop
+   - contact information are available in the footer as well as in the nav bar under 'Contact Us'
 7. Navigate to a page that could help me with my enquiry, to answer my question.
+   - navigation of the page is easy and intuitive.
 
 ## Manual Testing
 
 ### Common Elements Testing
 
 Manual testing was conducted on the following elements that appear on every page:
-
 
 - Clicking on the navigation bar menu items to take the user to the correct page on the
   website
@@ -42,29 +55,222 @@ website
 Facebook
 Twitter
 Instagram
-LinkedIn
 
 ### Home Page
 
 Manual testing was conducted on the following elements of the [Home Page](index.html):
 
 - The responsiveness of the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Navigation bar changes into a dropdown menu on smaller screens
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Footer is visible and functionable, with links and layout working on all screens.
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- 'Shop Now' button will take user to all products section of the shop
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Search bar will search products based on name and description
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Products are divided by categories on the nav-bar and take the user to the right page annd show correct products.
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- "My Account" page gives the user opportunity to log in /register
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Upon logging in "My Account button shows relevant options for logged in user, like Profiles and Product Management for superusers
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Bag updates with correct amount to reflect products added to the bag
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Users get feedback via toasts upon updating the basket
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+### Products Page
+
+Manual testing was conducted on the following elements of the [Products Page](products.html):
+
+- The responsiveness of the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Various options to sort products by
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Scrollable page with product pictures and names
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Edit/Delete buttons available for superuser
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+### Product detail Page
+
+Manual testing was conducted on the following elements of the [Product detail Page](product_detail.html):
+
+- The responsiveness of the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Product description, price, category and name visible on the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Ability to add different quantity of product to the bag + add to bag button
+<p>
+  <img src="" width="100%" alt="">
+</p>
 
 
+### Contact page 
+
+Manual testing was conducted on the following elements of the [Contact Page](contact.html):
+
+- The responsiveness of the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Fully functional form with required fields and send button
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Reason for contact is a collabsable option
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+### FAQs Page
+
+Manual testing was conducted on the following elements of the [FAQ Page](faq.html):
+
+- The responsiveness of the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Collabsable Answers option and Question with show/hide text button - all functional
+<p>
+  <img src="" width="100%" alt="">
+</p>
 
 
+### Shopping Bag Page
+
+Manual testing was conducted on the following elements of the [Bag Page](bag.html):
+
+- The responsiveness of the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Product is visible including price, quantity, delivery fee etc.
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Quantity can be adjusted via the buttons in the bag 
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- secure checkout available
+<p>
+  <img src="" width="100%" alt="">
+</p>
 
 
+### Product Management
 
+Manual testing was conducted on the following elements of the [product Management Page](add_product.html):
 
+- The responsiveness of the page
+<p>
+  <img src="" width="100%" alt="">
+</p>
 
+- Functional form with submit button
+<p>
+  <img src="" width="100%" alt="">
+</p>
 
+### Edit Product
 
+Manual testing was conducted on the following elements of the [Edit Product Page](edit_product.html):
 
+- The responsiveness of the page
 
+<p>
+  <img src="" width="100%" alt="">
+</p>
 
+### Profile
 
+Manual testing was conducted on the following elements of the [Profile Page](profile.html):
 
+- The responsiveness of the page
+
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Ability to view and update information via a form
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+### Log/Register
+
+Manual testing was conducted on the following elements of the [Profile Page](profile.html):
+
+- The responsiveness of the page
+
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Registration form
+<p>
+  <img src="" width="100%" alt="">
+</p>
+
+- Log in 
+<p>
+  <img src="" width="100%" alt="">
+</p>
 
 
 ## Automated Testing
@@ -85,18 +291,39 @@ The [Extends Class](https://extendsclass.com/) service was used to validate Pyth
 **Results:**
 
 - HTML Pages
+  <p>
+  <img src="" width="100%" alt=" HTML Validator">
+</p>
 - CSS
+  <p>
+  <img src="" width="100%" alt=" CSS Validator">
+</p>
 - JavaScript
+  <p>
+  <img src="" width="100%" alt=" JavaScript Validator">
+</p>
 - Django
+  <p>
+  <img src="" width="100%" alt=" Django Validator">
+</p>
 - Python
+  <p>
+  <img src="" width="100%" alt=" Python Validator">
+</p>
 
 
 ### Browser Validation
 
 - Chrome
+  <p>
+  <img src="" width="100%" alt=" Chrome">
+</p>
 - Safari
+<p>
+  <img src="" width="100%" alt=" Safari">
+</p>
 
 ## User testing
 
-A few friends and family members were asked to review the page for user experience and to point out any bugs/issues. The input of this group led to small UX adjustments to improve the overall site appearance and user experience. Some of them included: Adding a Close button to the Delete modal, Adding color changes to buttons and graphics adjustments.
+A few friends and family members were asked to review the page for user experience and to point out any bugs/issues. The input of this group led to small UX adjustments to improve the overall site appearance and user experience. Some of them included: Improving CSS for better visibility, Changing the footer, Adding FAQs, Changing contact form questions.
 DEBUG function was turned off.

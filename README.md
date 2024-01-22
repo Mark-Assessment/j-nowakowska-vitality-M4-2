@@ -1,4 +1,4 @@
-# Julia's Cooking Company
+# Vitality
 
 <p>
   <img src="" width="100%" alt="mock up photos">
@@ -42,7 +42,7 @@
 
 ## Introduction
 
-The primary goals of Vitality website is to provide a web-based application that is intuitive and easy to navigate, and allows users purchase health supplemets and healthy snacks .
+The primary goals of Vitality website is to provide a web-based application that is intuitive and easy to navigate, and allows users purchase health supplemets and healthy snacks.
 
 This is the fourth of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute.
 
@@ -70,9 +70,9 @@ The ideal user for this website is:
 2. View my previous orders, to keep a record of my transaction.
 3. Edit default information, to update any necessary fields.
 4. View shopping bag to get an overview of products I wish to order.
-5. Remove products from my bag, to suit my needs.
-6. Update a product's quantity, to suit my needs.
-7. Proceed to a secure checkout, to make a purchase.
+5. Remove products from my bag, as needed.
+6. Update a product's quantity, as needed.
+7. Proceed to a secure checkout, to complete the purchase.
 8. Have clear visual feedback of the order process, to understand all steps of the process.
 9. Be able to edit my bag at all times, to allow change of mind.
 10. Receive a summary of my order via email to confirm that my transaction has been process.
@@ -117,24 +117,27 @@ The website needs to enable the **user** to:
 - View past purchases
 - Edit/Save Delivery Information
 - Get in touch with the shop
+- Pay for products
+- Choose products to buy
 
 The website needs to enable the **site manager** to:
 
 - Add/deleyte and edit items
+- Log in as a superuser toi unlock ceratin features
 - Improve the site as necessary with various new features
 
 #### Scope
 
-The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.
+The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane.
 
 - Content Requirements:
   - The user will be looking for:
     - Products are visible on the site
-    - Visible button
+    - Visible buttons
     - Intuitive navigation bar
     - Social Media links for those with further interest in the company
    	- View Categories
-    - Functionality Requirements
+    - Get feedback from the site
   - The user will be able to:
     - Log in/ Register/ Log out of the website
     - Be able to easily navigate the site to find the information they require, like social media links etc
@@ -152,7 +155,7 @@ The information above was organized in a hierarchical tree structure, showing ho
 <summary>Structure of the Site</summary>
 
 <p>
-  <img src="" width="100%" alt="structure photos">
+  <img src="media/README_media/Structure.png" width="100%" alt="structure photos">
 </p>
 
 </details>
@@ -161,7 +164,7 @@ The structure of the models and database is included below :
 <summary>Structure of the Database</summary>
 
 <p>
-  <img src="" width="100%" alt="structure photos">
+  <img src="media/README_media/Models.png" width="100%" alt="structure photos">
 </p>
 
 </details>
@@ -171,8 +174,7 @@ The structure of the models and database is included below :
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using an online version of [Figma](https://www.figma.com).
 
 <p>
-    <img src="" width="100%" alt="website-vision">
-    <img src="" width="100%" alt="website-vision">
+    <img src="media/README_media/skeleton.png" width="100%" alt="website-vision">
 </p>
 
 </details>
@@ -194,7 +196,7 @@ The colours used are :
 
 White was used as the background colour for the website as graphic is full of colour creating a good contrast for reading and browsing.  
 The main content text is in a black shade, as this colour creates the best contrast to guarantee the high readability of the text. Following the standard procedure, the delete buttons are red; the edit buttons are blue.
-Shades picked are generally soft with a few contrasting colours like red, black and white and grey to focus the user on colorful products.
+Shades picked are generally soft with a few contrasting colours like red, black, white and grey to focus the user on colorful products.
 
 #### Typography
 
@@ -204,7 +206,7 @@ The typography pairing used on this site is [Lato]. A backup of Sans-Serif had b
 
 The selected imagery has been sourced from various sites.
 There is an image on the main page that also shows on other pages.
-A user can view image of a product, if image was not icludede a simple imgge will show in its place.
+A user can view image of a product, if image was not icludede a default image will show in its place.
 Browser logo was created by the author of the website using canva.
 
 ## Features
@@ -214,10 +216,9 @@ Browser logo was created by the author of the website using canva.
 Each page within the site has a responsive and consistent navigation system. Detailed features are included below.
 
 - The **Header** is across the top of the page. It is 100% in width and includes the title of the page.
-- The **Navigation Bar** is positioned on the right-hand side of the title, it includes the "Home", Products and Categories' buttons.
+- The **Navigation Bar** is positioned on the right-hand side of the title, it includes the "All products", Vitamins, Food, Special offers and Contact buttons. Every button has option underneath it for categories.On smaller screens it changes into a dropdown menu with button for access. 
 
-It appears on all screen sizes. If the screen size becomes too small the menu will become collapsable with a button for access.
-- The **Footer** is 100% in width. The footer is located permanently at the bottom of the page on all screen sizes. The footer contains all social media links;corresponding media logos;links to contact page; links to freaquently used pages.
+- The **Footer** is 100% in width. The footer is located permanently at the bottom of the page on all screen sizes. The footer contains all social media links;corresponding media logos;links to contact page; links to freaquently used page links.
 
 <dl>
     <dt><a href="index.html" target="_blank" alt="Vitality">Home Page</a></dt>
@@ -225,7 +226,7 @@ It appears on all screen sizes. If the screen size becomes too small the menu wi
         The <em>Home Page</em> is a scrollable page and it includes a navigation bar, footer and menu on the top. It also includes a search bar and logo in top left corner. In the top right conner a shopping bag and Account buttons can be located.
         <ul>
             <li>
-            <em>Navigation Bar</em> - This inludes the logo, links, account access and shopping bag.
+            <em>Navigation Bar</em> - This inludes the logo, links to products and categories, account access and shopping bag.
             </li>
             <li>
             <em>The Description</em> - This section contains a short description of the page and its purpose. This will give a clear overview of the website for a new user.
@@ -237,7 +238,7 @@ It appears on all screen sizes. If the screen size becomes too small the menu wi
     </dd>
 </dl>
 <dl>
-    <dt><a href="categories.html" target="_blank" alt="Categories page">Categories Page</a></dt>
+    <dt><a href="products.html" target="_blank" alt="Product page">Product Page</a></dt>
     <dd>
         The <em>Product page</em> is a scrollable page that includes cards with products. It consists of an image and product name; The cards also have a button to edit and delete products - only for the admin.
         <ul>
@@ -245,7 +246,77 @@ It appears on all screen sizes. If the screen size becomes too small the menu wi
             <em>Title</em> - this reflect the sites purpose.
             </li>
             <li>
-            <em>Main Content</em> - cards with prodcuts
+            <em>Main Content</em> - cards with products and their names.
+            </li>
+            <li>
+            <em>Footer</em> - This section contains social media links to Facebook, Gitpod and Twitter plus other features specified above.
+            </li>
+        </ul>
+    </dd>
+</dl>
+
+<dl>
+    <dt><a href="contact.html" target="_blank" alt="Contact page">Contact Page</a></dt>
+    <dd>
+        The <em>Contact page</em> is a scrollable page that includes cards with products. It consists of a form that a user has to fill to contact the company.
+        <ul>
+            <li>
+            <em>Title</em> - this reflect the sites purpose.
+            </li>
+            <li>
+            <em>Main Content</em> - Form that includes the purpose of contact, details of the user and a message.
+            </li>
+            <li>
+            <em>Footer</em> - This section contains social media links to Facebook, Gitpod and Twitter plus other features specified above.
+            </li>
+        </ul>
+    </dd>
+</dl>
+
+<dl>
+    <dt><a href="faq.html" target="_blank" alt="FAQs page">FAQ Page</a></dt>
+    <dd>
+        The <em>FAqs page</em> is a scrollable page that includes cards with products. It consists of Questions taht are popular amongst the customers and answers. The answers are colapsable and can be viewd or hiden.
+        <ul>
+            <li>
+            <em>Title</em> - this reflect the sites purpose.
+            </li>
+            <li>
+            <em>Main Content</em> - Questions and Ansers with Show and Hide text feature.
+            </li>
+            <li>
+            <em>Footer</em> - This section contains social media links to Facebook, Gitpod and Twitter plus other features specified above.
+            </li>
+        </ul>
+    </dd>
+</dl>
+<dl>
+    <dt><a href="bag.html" target="_blank" alt="Bag page">Shopping Cart Page</a></dt>
+    <dd>
+        The <em>Bag page</em> is a scrollable page that includes cards with products. It consists of product information that were added to the basket, total amount to pay, delivery costs and checkout button.
+        <ul>
+            <li>
+            <em>Title</em> - this reflect the sites purpose.
+            </li>
+            <li>
+            <em>Main Content</em> - order information.User can change product quantity or remove products from baskets.
+            </li>
+            <li>
+            <em>Footer</em> - This section contains social media links to Facebook, Gitpod and Twitter plus other features specified above.
+            </li>
+        </ul>
+    </dd>
+</dl>
+<dl>
+    <dt><a href="profile.html" target="_blank" alt="Profiles page">Profile Page</a></dt>
+    <dd>
+        The <em>Profiles page</em> is a scrollable page that includes cards with products. It consists of profile and order infomation for logged in users
+        <ul>
+            <li>
+            <em>Title</em> - this reflect the sites purpose.
+            </li>
+            <li>
+            <em>Main Content</em> - user and order information for logged in users.
             </li>
             <li>
             <em>Footer</em> - This section contains social media links to Facebook, Gitpod and Twitter plus other features specified above.
@@ -260,8 +331,9 @@ It appears on all screen sizes. If the screen size becomes too small the menu wi
 - **Navigation Bar** - Appears on every page to provide visible and easily accessible navigation.
 - **Footer** - Appears on the bottom of every page. This provides easy access to external links.
 - **Social Media Links** - Appears in the footer, at the bottom of every page. Links are embedded in the social media icons and open in a new tab to provide a better user experience.
-- ** ** - 
-- ** ** - 
+- **Feedback** - Toasts provide feedback to the user when products are added/removed/editted or added/removed from the basket.
+- **Stripe** - Stripe payment is enabled to help user go to checkout and pay for products.
+- **Log/Register** - User is able to lon in and register and use user only functions upon registration.
 
 
 ### Features To Implement In The Future
@@ -283,10 +355,11 @@ It appears on all screen sizes. If the screen size becomes too small the menu wi
 
 The developer ran into several issues during the development of this site. The most interesting ones have been described below, this includes the fix for the bugs.
 
-
-**Adding FAQs to the page** - The developer had issues with viewing/hiding text on FAQs feature. The help was found online via Slack and Stack Overflow and error fixed.
+**Adding FAQs to the page** - The developer had issues with viewing/hiding text on FAQs feature. The help was found online via Slack and Stack Overflow and error fixed by applying some extra css and editing the models further.
 
 **Footer** - There was an issue with footer lenghth as it was featured on top of the page rather then bottom. The issues was solved by including footer into a different content block and then calling it on base.html page.
+
+This project was definitely one of the most challenging ones due to sheer size and amount of work it required. There was a lot of bugs and errors along the way that were rectified one by one with the help of student tutors and Slack collegues.
 
 
 ## Technologies Used

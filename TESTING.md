@@ -293,25 +293,13 @@ The [Extends Class](https://extendsclass.com/) service was used to validate Pyth
 
 - HTML Pages
   <p>
-  <img src="" width="100%" alt=" HTML Validator">
+  <img src="media/TESTING_media/html.png" width="100%" alt=" HTML Validator">
+
 </p>
 - CSS
   <p>
-  <img src="" width="100%" alt=" CSS Validator">
+  <img src="media/TESTING_media/css.png" width="100%" alt=" CSS Validator">
 </p>
-- JavaScript
-  <p>
-  <img src="" width="100%" alt=" JavaScript Validator">
-</p>
-- Django
-  <p>
-  <img src="" width="100%" alt=" Django Validator">
-</p>
-- Python
-  <p>
-  <img src="" width="100%" alt=" Python Validator">
-</p>
-
 
 ### Browser Validation
 

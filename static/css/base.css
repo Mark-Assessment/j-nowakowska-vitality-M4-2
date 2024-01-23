@@ -13,7 +13,8 @@ body {
     min-height: 100vh;
 }
 .faqs {
-    padding-top: 20%;
+    padding-top: 10%;
+    padding-bottom: 7%;
 }
 
 footer {
@@ -240,8 +241,10 @@ a.category-badge>span.badge:hover {
     }
 
     .new-product-text {
-        display: none;
+        max-width: 0%;
+        font-family: 'Oswald', sans-serif;
     }
+
 }
 
 input[name='q']::placeholder {

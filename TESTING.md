@@ -62,52 +62,52 @@ Manual testing was conducted on the following elements of the [Home Page](index.
 
 - The responsiveness of the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_home_page.png" width="100%" alt="responsiveness of the page">
 </p>
 
 - Navigation bar changes into a dropdown menu on smaller screens
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_small_screen.png" width="100%" alt="small screen responsiveness">
 </p>
 
 - Footer is visible and functionable, with links and layout working on all screens.
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/footer.png" width="100%" alt="footer">
 </p>
 
 - 'Shop Now' button will take user to all products section of the shop
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_home_page.png" width="100%" alt="shop now button">
 </p>
 
 - Search bar will search products based on name and description
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/search_products.png" width="100%" alt="search bar">
 </p>
 
 - Products are divided by categories on the nav-bar and take the user to the right page annd show correct products.
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_products.png" width="100%" alt="products">
 </p>
 
 - "My Account" page gives the user opportunity to log in /register
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/Register_or_login_menu.png" width="100%" alt="Log in or register dropdown">
 </p>
 
 - Upon logging in "My Account button shows relevant options for logged in user, like Profiles and Product Management for superusers
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/my_account_options.png" width="100%" alt="my account upon logging in">
 </p>
 
 - Bag updates with correct amount to reflect products added to the bag
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/chrome.png" width="100%" alt="updated bag with grand total">
 </p>
 
 - Users get feedback via toasts upon updating the basket
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/toasts.png" width="100%" alt="toasts">
 </p>
 
 ### Products Page
@@ -116,22 +116,22 @@ Manual testing was conducted on the following elements of the [Products Page](pr
 
 - The responsiveness of the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_products.png" width="100%" alt="responsiveness of the page">
 </p>
 
 - Various options to sort products by
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/sort_by.png" width="100%" alt="sorting products">
 </p>
 
 - Scrollable page with product pictures and names
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_products.png" width="100%" alt="products view">
 </p>
 
 - Edit/Delete buttons available for superuser
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_products.png" width="100%" alt="edit/delete visibility">
 </p>
 
 ### Product detail Page
@@ -140,17 +140,17 @@ Manual testing was conducted on the following elements of the [Product detail Pa
 
 - The responsiveness of the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/product_detail.png" width="100%" alt="responsiveness of the page">
 </p>
 
 - Product description, price, category and name visible on the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/product_detail.png" width="100%" alt="product details">
 </p>
 
 - Ability to add different quantity of product to the bag + add to bag button
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/product_detail.png" width="100%" alt="product details quantity button">
 </p>
 
 
@@ -160,17 +160,17 @@ Manual testing was conducted on the following elements of the [Contact Page](con
 
 - The responsiveness of the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/contact_responsive.png" width="100%" alt="responsiveness of the page">
 </p>
 
 - Fully functional form with required fields and send button
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/contact_responsive.png" width="100%" alt="contact form">
 </p>
 
 - Reason for contact is a collabsable option
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/reason_for_contact.png" width="100%" alt="contact dropdown">
 </p>
 
 ### FAQs Page
@@ -179,12 +179,13 @@ Manual testing was conducted on the following elements of the [FAQ Page](faq.htm
 
 - The responsiveness of the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/faq_responsive.png" width="100%" alt="responsiveness of the page">
 </p>
 
 - Collabsable Answers option and Question with show/hide text button - all functional
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/faq_unrolled.png" width="100%" alt="faq unrolled">
+  <img src="media/TESTING_media/faq_hidden.png" width="100%" alt="faq rolled">
 </p>
 
 
@@ -194,22 +195,22 @@ Manual testing was conducted on the following elements of the [Bag Page](bag.htm
 
 - The responsiveness of the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_bag.png" width="100%" alt="responsiveness of the page">
 </p>
 
 - Product is visible including price, quantity, delivery fee etc.
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_bag.png" width="100%" alt="bag details">
 </p>
 
 - Quantity can be adjusted via the buttons in the bag 
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_bag.png" width="100%" alt="quantity in the bag">
 </p>
 
 - secure checkout available
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/responsive_bag.png" width="100%" alt="checkout">
 </p>
 
 
@@ -219,12 +220,12 @@ Manual testing was conducted on the following elements of the [product Managemen
 
 - The responsiveness of the page
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/add_product.png" width="100%" alt="responsiveness of the page">
 </p>
 
 - Functional form with submit button
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/add_product.png" width="100%" alt="add form">
 </p>
 
 ### Edit Product
@@ -234,7 +235,7 @@ Manual testing was conducted on the following elements of the [Edit Product Page
 - The responsiveness of the page
 
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/edit_product.png" width="100%" alt="responsiveness of the page">
 </p>
 
 ### Profile
@@ -254,22 +255,22 @@ Manual testing was conducted on the following elements of the [Profile Page](pro
 
 ### Log/Register
 
-Manual testing was conducted on the following elements of the [Profile Page](profile.html):
+Manual testing was conducted on the following elements of the [Log in/Register Page]:
 
 - The responsiveness of the page
 
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/Register_or_login_menu.png" width="100%" alt="account menu">
 </p>
 
 - Registration form
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/register.png" width="100%" alt="register">
 </p>
 
 - Log in 
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/log_in.png" width="100%" alt="log in">
 </p>
 
 
@@ -316,11 +317,12 @@ The [Extends Class](https://extendsclass.com/) service was used to validate Pyth
 
 - Chrome
   <p>
-  <img src="" width="100%" alt=" Chrome">
+  <img src="media/TESTING_media/chrome.png" width="100%" alt=" Chrome">
+
 </p>
 - Safari
 <p>
-  <img src="" width="100%" alt=" Safari">
+  <img src="media/TESTING_media/safari.png" width="100%" alt=" Safari">
 </p>
 
 ## User testing

@@ -245,12 +245,12 @@ Manual testing was conducted on the following elements of the [Profile Page](pro
 - The responsiveness of the page
 
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/profilesd.png" width="100%" alt="profiles ">
 </p>
 
 - Ability to view and update information via a form
 <p>
-  <img src="" width="100%" alt="">
+  <img src="media/TESTING_media/profilesd.png" width="100%" alt="profiles form">
 </p>
 
 ### Log/Register

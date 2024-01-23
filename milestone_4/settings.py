@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-g%lk83!es+^$&zb!##l^q0(b7ak9(@p_g&km1t^0y*qn&3r^7z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS =['https://vitality-milestone-4-38e06b4d04ae.herokuapp.com', 'https://juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com/#/workspaces/Milestone-4', 'localhost' ]
+ALLOWED_HOSTS = ['vitality-milestone-4-38e06b4d04ae.herokuapp.com', 'https://juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com/#/workspaces/Milestone-4', 'https://vitality-milestone-4-38e06b4d04ae.herokuapp.com/', 'localhost' ]
 
 
 # Application definition
@@ -111,7 +111,7 @@ ACCOUNT_USERNAME_MIN_LENGHT = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'milestone_4.wsgi.application'
+WSGI_APPLICATION = 'milestone-4.wsgi.application'
 
 
 # Database

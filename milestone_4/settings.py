@@ -22,10 +22,10 @@ import dj_database_url
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-g%lk83!es+^$&zb!##l^q0(b7ak9(@p_g&km1t^0y*qn&3r^7z'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['vitality-milestone-4-38e06b4d04ae.herokuapp.com', 'https://juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com/#/workspaces/Milestone-4', 'https://vitality-milestone-4-38e06b4d04ae.herokuapp.com/', 'localhost' ]
 

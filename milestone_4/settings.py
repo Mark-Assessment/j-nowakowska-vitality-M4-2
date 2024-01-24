@@ -111,7 +111,7 @@ ACCOUNT_USERNAME_MIN_LENGHT = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'milestone-4.wsgi.application'
+WSGI_APPLICATION = 'milestone_4.wsgi.application'
 
 
 # Database

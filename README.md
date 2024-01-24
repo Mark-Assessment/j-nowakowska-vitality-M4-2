@@ -5,7 +5,7 @@
 </p>
 
 [Click here to view the live project]
-(<>)
+(<https://vitality-milestone-4-38e06b4d04ae.herokuapp.com>)
 
 ## Table of contents
 

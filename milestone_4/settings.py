@@ -16,6 +16,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 import os
+if os.path.exists("env.py"):
+    import env
+
 import dj_database_url
 
 # Quick-start development settings - unsuitable for production
@@ -27,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['vitality-milestone-4-38e06b4d04ae.herokuapp.com', 'https://juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com/#/workspaces/Milestone-4', 'https://vitality-milestone-4-38e06b4d04ae.herokuapp.com/', 'localhost' ]
+ALLOWED_HOSTS = ['vitality-milestone-4-38e06b4d04ae.herokuapp.com', 'https://juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com/#/workspaces/Milestone-4', '8000-juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com', 'https://vitality-milestone-4-38e06b4d04ae.herokuapp.com/', 'localhost' ]
 
 
 # Application definition
@@ -46,8 +49,7 @@ INSTALLED_APPS = [
     'home', 
     'products', 
     'bag', 
-    'checkout',
-    'crispy_forms',  
+    'checkout',  
     'profiles', 
     'contact', 
     'storages', 

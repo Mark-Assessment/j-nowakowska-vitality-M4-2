@@ -28,7 +28,7 @@ import dj_database_url
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['vitality-milestone-4-38e06b4d04ae.herokuapp.com', 'https://juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com/#/workspaces/Milestone-4', '8000-juginowakowska-milestone-d437z7ybvm.us2.codeanyapp.com', 'https://vitality-milestone-4-38e06b4d04ae.herokuapp.com/', 'localhost' ]
 
